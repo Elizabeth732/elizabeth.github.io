@@ -1,0 +1,245 @@
+body{
+    background-color: rgb(238, 198, 218);
+    width: 100%;
+    height: 100%;
+}
+body#first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hotpink;
+
+}
+#first img{
+    height:880px;
+    width:100%;
+}
+.green-button {
+    padding: 50px 70px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+  }
+  /* Start of 2nd page */
+ .skill{
+    display: grid;
+    grid-template-columns: 370px 370px 370px 370px;
+    height: 772px;
+    width: 772px;
+    text-decoration: none;
+
+ }
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+    /* border: 10px solid black; */
+    object-position: 50%;
+
+}
+
+.image{
+    width:350px;
+    height: 200px;
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 59px;
+}
+/* Start of Third page */
+.Crochet{
+    display: grid;
+    grid-template-columns: 350px 350px;
+
+    place-content: center;
+}
+.cro{
+    width: 350px;
+    height:350px;
+    font-size: 34px;
+    text-align: center;
+    border-radius: 17px;
+    display: grid;
+    align-content: center;
+}
+.Crochet .cro:nth-child(1){
+    background-color: greenyellow;
+}
+.Crochet .cro:nth-child(2){
+    background-color: yellow;
+}
+.Crochet .cro:nth-child(3){
+    background-color: orange;
+}
+.Crochet .cro:nth-child(4){
+    background-color: orangered;
+}
+h1{
+    font-size: 38px;
+    text-align: center;
+}
+/* Start of fourth page */
+.gardening{
+    display: grid;
+    grid-template-columns: 350px 350px;
+
+    place-content: center;
+}
+.garden{
+    width: 350px;
+    height:350px;
+    font-size: 34px;
+    text-align: center;
+    border-radius: 17px;
+    display: grid;
+    align-content: center;
+}
+.gardening .garden:nth-child(1){
+    background-color: greenyellow;
+}
+.gardening .garden:nth-child(2){
+    background-color: yellow;
+}
+.gardening .garden:nth-child(3){
+    background-color: orange;
+}
+.gardening .garden:nth-child(4){
+    background-color: orangered;
+}
+h1{
+    font-size: 38px;
+    text-align: center;
+}
+/* Start of fifth page */
+.cooking{
+    display: grid;
+    grid-template-columns: 350px 350px;
+
+    place-content: center;
+}
+.cook{
+    width: 350px;
+    height:350px;
+    font-size: 34px;
+    text-align: center;
+    border-radius: 17px;
+    display: grid;
+    align-content: center;
+}
+.cooking .cook:nth-child(1){
+    background-color: greenyellow;
+}
+.cooking .cook:nth-child(2){
+    background-color: yellow;
+}
+.cooking .cook:nth-child(3){
+    background-color: orange;
+}
+.cooking .cook:nth-child(4){
+    background-color: orangered;
+}
+/* Start of sixth page */
+.baking{
+    display: grid;
+    grid-template-columns: 350px 350px;
+
+    place-content: center;
+}
+.bake{
+    width: 350px;
+    height:350px;
+    font-size: 34px;
+    text-align: center;
+    border-radius: 17px;
+    display: grid;
+    align-content: center;
+}
+.baking .bake:nth-child(1){
+    background-color: greenyellow;
+}
+.baking .bake:nth-child(2){
+    background-color: yellow;
+}
+.baking .bake:nth-child(3){
+    background-color: orange;
+}
+.baking .bake:nth-child(4){
+    background-color: orangered;
+}
+
+/* Start of Seventh page*/
+/* Start of Crochet Beginner page */
+video{
+    width: 220px;
+    height:220px;
+}
+/* Start of ninth page*/
+.music{
+    display: grid;
+    grid-template-columns: 350px 350px;
+
+    place-content: center;
+}
+.mus{
+    width: 350px;
+    height:350px;
+    font-size: 34px;
+    text-align: center;
+    border-radius: 17px;
+    display: grid;
+    align-content: center;
+}
+.music .mus:nth-child(1){
+    background-color: greenyellow;
+}
+.music .mus:nth-child(2){
+    background-color: yellow;
+}
+.music .mus:nth-child(3){
+    background-color: orange;
+}
+.music .mus:nth-child(4){
+    background-color: orangered;
+}
+h1{
+    font-size: 38px;
+    text-align: center;
+}
+/* Start of tenth page */
+.fitness{
+    display: grid;
+    grid-template-columns: 350px 350px;
+
+    place-content: center;
+}
+.fit{
+    width: 350px;
+    height:350px;
+    font-size: 34px;
+    text-align: center;
+    border-radius: 17px;
+    display: grid;
+    align-content: center;
+}
+.fitness .fit:nth-child(1){
+    background-color: greenyellow;
+}
+.fitness .fit:nth-child(2){
+    background-color: yellow;
+}
+.fitness .fit:nth-child(3){
+    background-color: orange;
+}
+.fitness .fit:nth-child(4){
+    background-color: orangered;
+}
